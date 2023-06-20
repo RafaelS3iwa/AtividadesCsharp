@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\AulaAlgoritmoCSharp\AulaAlgoritmoCSharp\bin\Debug\AulaAlgoritmoCSharp.exe.config
+C:\Users\rafael.niyasue\source\repos\AulaAlgoritmoCSharp\AulaAlgoritmoCSharp\bin\Debug\AulaAlgoritmoCSharp.exe
+C:\Users\rafael.niyasue\source\repos\AulaAlgoritmoCSharp\AulaAlgoritmoCSharp\bin\Debug\AulaAlgoritmoCSharp.pdb
+C:\Users\rafael.niyasue\source\repos\AulaAlgoritmoCSharp\AulaAlgoritmoCSharp\obj\Debug\AulaAlgoritmoCSharp.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\AulaAlgoritmoCSharp\AulaAlgoritmoCSharp\obj\Debug\AulaAlgoritmoCSharp.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\AulaAlgoritmoCSharp\AulaAlgoritmoCSharp\obj\Debug\AulaAlgoritmoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\AulaAlgoritmoCSharp\AulaAlgoritmoCSharp\obj\Debug\AulaAlgoritmoCSharp.exe
+C:\Users\rafael.niyasue\source\repos\AulaAlgoritmoCSharp\AulaAlgoritmoCSharp\obj\Debug\AulaAlgoritmoCSharp.pdb
