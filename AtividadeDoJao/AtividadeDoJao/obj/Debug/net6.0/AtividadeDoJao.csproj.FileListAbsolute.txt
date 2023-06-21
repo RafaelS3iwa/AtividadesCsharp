@@ -1,0 +1,16 @@
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\AtividadeDoJao.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\AtividadeDoJao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\AtividadeDoJao.AssemblyInfoInputs.cache
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\AtividadeDoJao.AssemblyInfo.cs
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\AtividadeDoJao.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\bin\Debug\net6.0\AtividadeDoJao.exe
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\bin\Debug\net6.0\AtividadeDoJao.dll.config
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\bin\Debug\net6.0\AtividadeDoJao.deps.json
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\bin\Debug\net6.0\AtividadeDoJao.runtimeconfig.json
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\bin\Debug\net6.0\AtividadeDoJao.dll
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\bin\Debug\net6.0\AtividadeDoJao.pdb
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\AtividadeDoJao.dll
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\refint\AtividadeDoJao.dll
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\AtividadeDoJao.pdb
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\AtividadeDoJao.genruntimeconfig.cache
+C:\Users\rafael.niyasue\source\repos\AtividadeDoJao\AtividadeDoJao\obj\Debug\net6.0\ref\AtividadeDoJao.dll

@@ -1,0 +1,11 @@
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\bin\Debug\AppCalculoDeMedia.exe.config
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\bin\Debug\AppCalculoDeMedia.exe
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\bin\Debug\AppCalculoDeMedia.pdb
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\obj\Debug\AppCalculoDeMedia.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\obj\Debug\AppCalculoDeMedia.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\obj\Debug\AppCalculoDeMedia.FrmCalculoMedia.resources
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\obj\Debug\AppCalculoDeMedia.Properties.Resources.resources
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\obj\Debug\AppCalculoDeMedia.csproj.GenerateResource.cache
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\obj\Debug\AppCalculoDeMedia.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\obj\Debug\AppCalculoDeMedia.exe
+C:\Users\rafael.niyasue\source\repos\AppCalculoDeMedia\AppCalculoDeMedia\obj\Debug\AppCalculoDeMedia.pdb
