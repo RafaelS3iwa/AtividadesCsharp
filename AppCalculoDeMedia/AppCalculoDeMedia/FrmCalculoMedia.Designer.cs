@@ -60,7 +60,6 @@
             this.TxtNota1.Name = "TxtNota1";
             this.TxtNota1.Size = new System.Drawing.Size(186, 29);
             this.TxtNota1.TabIndex = 1;
-
             // 
             // TxtNota2
             // 
@@ -69,7 +68,6 @@
             this.TxtNota2.Name = "TxtNota2";
             this.TxtNota2.Size = new System.Drawing.Size(186, 29);
             this.TxtNota2.TabIndex = 3;
-          
             // 
             // LblNota2
             // 
@@ -80,7 +78,6 @@
             this.LblNota2.Size = new System.Drawing.Size(62, 20);
             this.LblNota2.TabIndex = 2;
             this.LblNota2.Text = "Nota 2";
-       
             // 
             // TxtNota4
             // 
@@ -89,7 +86,6 @@
             this.TxtNota4.Name = "TxtNota4";
             this.TxtNota4.Size = new System.Drawing.Size(186, 29);
             this.TxtNota4.TabIndex = 7;
-
             // 
             // LblNota4
             // 
@@ -108,7 +104,6 @@
             this.TxtNota3.Name = "TxtNota3";
             this.TxtNota3.Size = new System.Drawing.Size(186, 29);
             this.TxtNota3.TabIndex = 5;
-
             // 
             // LblNota3
             // 
@@ -124,18 +119,18 @@
             // 
             this.LblMedia.AutoSize = true;
             this.LblMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMedia.Location = new System.Drawing.Point(360, 53);
+            this.LblMedia.Location = new System.Drawing.Point(337, 53);
             this.LblMedia.Name = "LblMedia";
             this.LblMedia.Size = new System.Drawing.Size(92, 31);
             this.LblMedia.TabIndex = 8;
             this.LblMedia.Text = "Média";
-       
+            this.LblMedia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LblSituacao
             // 
             this.LblSituacao.AutoSize = true;
             this.LblSituacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSituacao.Location = new System.Drawing.Point(313, 222);
+            this.LblSituacao.Location = new System.Drawing.Point(266, 222);
             this.LblSituacao.Name = "LblSituacao";
             this.LblSituacao.Size = new System.Drawing.Size(96, 24);
             this.LblSituacao.TabIndex = 9;
@@ -144,7 +139,7 @@
             // BtnCalcular
             // 
             this.BtnCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCalcular.Location = new System.Drawing.Point(333, 267);
+            this.BtnCalcular.Location = new System.Drawing.Point(300, 267);
             this.BtnCalcular.Name = "BtnCalcular";
             this.BtnCalcular.Size = new System.Drawing.Size(159, 69);
             this.BtnCalcular.TabIndex = 10;
@@ -154,24 +149,23 @@
             // 
             // LblResultadoMedia
             // 
-            this.LblResultadoMedia.AutoSize = true;
             this.LblResultadoMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblResultadoMedia.Location = new System.Drawing.Point(315, 102);
+            this.LblResultadoMedia.Location = new System.Drawing.Point(282, 106);
             this.LblResultadoMedia.Name = "LblResultadoMedia";
-            this.LblResultadoMedia.Size = new System.Drawing.Size(181, 108);
+            this.LblResultadoMedia.Size = new System.Drawing.Size(217, 104);
             this.LblResultadoMedia.TabIndex = 11;
-            this.LblResultadoMedia.Text = "7.0";
-
+            this.LblResultadoMedia.Text = "--";
+            this.LblResultadoMedia.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LblSituation
             // 
-            this.LblSituation.AutoSize = true;
+            this.LblSituation.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.LblSituation.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblSituation.Location = new System.Drawing.Point(415, 222);
+            this.LblSituation.Location = new System.Drawing.Point(368, 222);
             this.LblSituation.Name = "LblSituation";
-            this.LblSituation.Size = new System.Drawing.Size(100, 24);
+            this.LblSituation.Size = new System.Drawing.Size(155, 24);
             this.LblSituation.TabIndex = 12;
-            this.LblSituation.Text = "Aprovado";
+            this.LblSituation.Text = "-";
             // 
             // FrmCalculoMedia
             // 

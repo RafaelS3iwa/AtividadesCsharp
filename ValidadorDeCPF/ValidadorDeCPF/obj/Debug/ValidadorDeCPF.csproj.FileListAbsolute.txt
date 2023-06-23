@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\ValidadorDeCPF\ValidadorDeCPF\bin\Debug\ValidadorDeCPF.exe.config
+C:\Users\rafael.niyasue\source\repos\ValidadorDeCPF\ValidadorDeCPF\bin\Debug\ValidadorDeCPF.exe
+C:\Users\rafael.niyasue\source\repos\ValidadorDeCPF\ValidadorDeCPF\bin\Debug\ValidadorDeCPF.pdb
+C:\Users\rafael.niyasue\source\repos\ValidadorDeCPF\ValidadorDeCPF\obj\Debug\ValidadorDeCPF.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorDeCPF\ValidadorDeCPF\obj\Debug\ValidadorDeCPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorDeCPF\ValidadorDeCPF\obj\Debug\ValidadorDeCPF.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorDeCPF\ValidadorDeCPF\obj\Debug\ValidadorDeCPF.exe
+C:\Users\rafael.niyasue\source\repos\ValidadorDeCPF\ValidadorDeCPF\obj\Debug\ValidadorDeCPF.pdb
