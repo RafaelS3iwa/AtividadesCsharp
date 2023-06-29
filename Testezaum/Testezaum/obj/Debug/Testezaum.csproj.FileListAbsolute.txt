@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\Testezaum\Testezaum\bin\Debug\Testezaum.exe.config
+C:\Users\rafael.niyasue\source\repos\Testezaum\Testezaum\bin\Debug\Testezaum.exe
+C:\Users\rafael.niyasue\source\repos\Testezaum\Testezaum\bin\Debug\Testezaum.pdb
+C:\Users\rafael.niyasue\source\repos\Testezaum\Testezaum\obj\Debug\Testezaum.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\Testezaum\Testezaum\obj\Debug\Testezaum.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\Testezaum\Testezaum\obj\Debug\Testezaum.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\Testezaum\Testezaum\obj\Debug\Testezaum.exe
+C:\Users\rafael.niyasue\source\repos\Testezaum\Testezaum\obj\Debug\Testezaum.pdb

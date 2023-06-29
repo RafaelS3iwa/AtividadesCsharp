@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\ValidadorAndGerador\ValidadorAndGerador\bin\Debug\ValidadorAndGerador.exe.config
+C:\Users\rafael.niyasue\source\repos\ValidadorAndGerador\ValidadorAndGerador\bin\Debug\ValidadorAndGerador.exe
+C:\Users\rafael.niyasue\source\repos\ValidadorAndGerador\ValidadorAndGerador\bin\Debug\ValidadorAndGerador.pdb
+C:\Users\rafael.niyasue\source\repos\ValidadorAndGerador\ValidadorAndGerador\obj\Debug\ValidadorAndGerador.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorAndGerador\ValidadorAndGerador\obj\Debug\ValidadorAndGerador.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorAndGerador\ValidadorAndGerador\obj\Debug\ValidadorAndGerador.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorAndGerador\ValidadorAndGerador\obj\Debug\ValidadorAndGerador.exe
+C:\Users\rafael.niyasue\source\repos\ValidadorAndGerador\ValidadorAndGerador\obj\Debug\ValidadorAndGerador.pdb

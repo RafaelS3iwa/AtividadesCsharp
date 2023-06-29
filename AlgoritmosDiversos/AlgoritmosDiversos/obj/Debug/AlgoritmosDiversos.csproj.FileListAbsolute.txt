@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\AlgoritmosDiversos\AlgoritmosDiversos\bin\Debug\AlgoritmosDiversos.exe.config
+C:\Users\rafael.niyasue\source\repos\AlgoritmosDiversos\AlgoritmosDiversos\bin\Debug\AlgoritmosDiversos.exe
+C:\Users\rafael.niyasue\source\repos\AlgoritmosDiversos\AlgoritmosDiversos\bin\Debug\AlgoritmosDiversos.pdb
+C:\Users\rafael.niyasue\source\repos\AlgoritmosDiversos\AlgoritmosDiversos\obj\Debug\AlgoritmosDiversos.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\AlgoritmosDiversos\AlgoritmosDiversos\obj\Debug\AlgoritmosDiversos.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\AlgoritmosDiversos\AlgoritmosDiversos\obj\Debug\AlgoritmosDiversos.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\AlgoritmosDiversos\AlgoritmosDiversos\obj\Debug\AlgoritmosDiversos.exe
+C:\Users\rafael.niyasue\source\repos\AlgoritmosDiversos\AlgoritmosDiversos\obj\Debug\AlgoritmosDiversos.pdb

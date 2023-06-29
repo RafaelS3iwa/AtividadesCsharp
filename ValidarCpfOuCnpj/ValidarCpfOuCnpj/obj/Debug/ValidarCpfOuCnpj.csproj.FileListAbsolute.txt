@@ -1,0 +1,11 @@
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\bin\Debug\ValidarCpfOuCnpj.exe.config
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\bin\Debug\ValidarCpfOuCnpj.exe
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\bin\Debug\ValidarCpfOuCnpj.pdb
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\obj\Debug\ValidarCpfOuCnpj.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\obj\Debug\ValidarCpfOuCnpj.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\obj\Debug\ValidarCpfOuCnpj.Form1.resources
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\obj\Debug\ValidarCpfOuCnpj.Properties.Resources.resources
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\obj\Debug\ValidarCpfOuCnpj.csproj.GenerateResource.cache
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\obj\Debug\ValidarCpfOuCnpj.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\obj\Debug\ValidarCpfOuCnpj.exe
+C:\Users\rafael.niyasue\source\repos\ValidarCpfOuCnpj\ValidarCpfOuCnpj\obj\Debug\ValidarCpfOuCnpj.pdb

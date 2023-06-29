@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\ValidadorCpfECnpj\ValidadorCpfECnpj\bin\Debug\ValidadorCpfECnpj.exe.config
+C:\Users\rafael.niyasue\source\repos\ValidadorCpfECnpj\ValidadorCpfECnpj\bin\Debug\ValidadorCpfECnpj.exe
+C:\Users\rafael.niyasue\source\repos\ValidadorCpfECnpj\ValidadorCpfECnpj\bin\Debug\ValidadorCpfECnpj.pdb
+C:\Users\rafael.niyasue\source\repos\ValidadorCpfECnpj\ValidadorCpfECnpj\obj\Debug\ValidadorCpfECnpj.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorCpfECnpj\ValidadorCpfECnpj\obj\Debug\ValidadorCpfECnpj.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorCpfECnpj\ValidadorCpfECnpj\obj\Debug\ValidadorCpfECnpj.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\ValidadorCpfECnpj\ValidadorCpfECnpj\obj\Debug\ValidadorCpfECnpj.exe
+C:\Users\rafael.niyasue\source\repos\ValidadorCpfECnpj\ValidadorCpfECnpj\obj\Debug\ValidadorCpfECnpj.pdb
