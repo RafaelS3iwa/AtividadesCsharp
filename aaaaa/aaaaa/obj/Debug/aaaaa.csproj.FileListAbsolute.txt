@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\aaaaa\aaaaa\bin\Debug\aaaaa.exe.config
+C:\Users\rafael.niyasue\source\repos\aaaaa\aaaaa\bin\Debug\aaaaa.exe
+C:\Users\rafael.niyasue\source\repos\aaaaa\aaaaa\bin\Debug\aaaaa.pdb
+C:\Users\rafael.niyasue\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.exe
+C:\Users\rafael.niyasue\source\repos\aaaaa\aaaaa\obj\Debug\aaaaa.pdb
