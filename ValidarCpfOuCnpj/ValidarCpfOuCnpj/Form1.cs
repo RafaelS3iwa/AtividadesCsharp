@@ -28,7 +28,7 @@ namespace ValidarCpfOuCnpj
             if (TxtNumero.Text == "" || RdCpf.Text == "" || RdCnpj.Text == "")
             {
                 //mensagem de alerta
-                MessageBox.Show("Por favor, scolha uma opção.", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, escolha uma opção.", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
                 return;
             }
 
