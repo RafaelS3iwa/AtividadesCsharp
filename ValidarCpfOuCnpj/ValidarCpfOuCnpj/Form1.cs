@@ -25,9 +25,19 @@ namespace ValidarCpfOuCnpj
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (TxtNumero.Text == "" || RdCpf.Text == "" || RdCnpj.Text == "")
+   
+            if (TxtNumero.Text == "" && RdCpf.Checked)
             {
-                //mensagem de alerta
+                MessageBox.Show("Por favor, coloque o número do seu CPF.", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                return;
+            }
+            else if(TxtNumero.Text == "" && RdCnpj.Checked)
+            {
+                MessageBox.Show("Por favor, coloque o número do seu CNPJ.", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                return;
+            }
+            else if (TxtNumero.Text == "")
+            {
                 MessageBox.Show("Por favor, escolha uma opção.", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
                 return;
             }
@@ -35,6 +45,11 @@ namespace ValidarCpfOuCnpj
 
             if (RdCpf.Checked)
             {
+                if(TxtNumero.Text.Length < 14)
+                {
+                    MessageBox.Show("Por favor, coloque todos os números do seu CPF.", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                    return;
+                }
                 string cpf = TxtNumero.Text;
                 string cpfSemCaracteres = cpf.Replace(".", "").Replace("/", "").Replace("-", "");
 
@@ -68,6 +83,11 @@ namespace ValidarCpfOuCnpj
             }
             else if (RdCnpj.Checked)
             {
+                if(TxtNumero.Text.Length < 18)
+                {
+                    MessageBox.Show("Por favor, coloque todos os números do seu CNPJ.", "Erro", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+                    return;
+                }
                 string cnpj = TxtNumero.Text;
                 string cnpjSemCaracteres = cnpj.Replace(".", "").Replace("/", "").Replace("-", "");
 
@@ -132,10 +152,6 @@ namespace ValidarCpfOuCnpj
                     {
                         TxtNumero.Text = cpf.Substring(0, 3) + "." + cpf.Substring(3, 3) + "." + cpf.Substring(6, 3) + "-" + cpf.Substring(9);
                     }
-                    else
-                    {
-                        MessageBox.Show("O limite de caracteres foi excedido!", "Erro!", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
-                    }
                     TxtNumero.SelectionStart = TxtNumero.Text.Length;
                 }
             }
@@ -163,12 +179,7 @@ namespace ValidarCpfOuCnpj
                     else if (cnpj.Length <= 14)
                     {
                         TxtNumero.Text = cnpj.Substring(0, 2) + "." + cnpj.Substring(2, 3) + "." + cnpj.Substring(5, 3) + "/" + cnpj.Substring(8, 4) + "-" + cnpj.Substring(12);
-                    }
-                    else
-                    {
-                        MessageBox.Show("Limite máximo de caracteres excedido", "Erro!", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
-                    }
-
+                    }             
                     TxtNumero.SelectionStart = TxtNumero.Text.Length;
                 }
             }
@@ -320,6 +331,48 @@ namespace ValidarCpfOuCnpj
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void RdCpf_CheckedChanged(object sender, EventArgs e)
+        {
+            if(RdCpf.Checked)
+            {
+                LimparCampoValidacao();
+            }
+        }
+
+        private void LimparCampoValidacao()
+        {
+                TxtNumero.Text = string.Empty;
+        }
+
+        private void RdCnpj_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RdCnpj.Checked)
+            {
+                LimparCampoValidacao();
+            }
+        }
+
+        private void RdGerarCpf_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RdGerarCpf.Checked)
+            {
+                LimparCampoGerado();
+            }
+        }
+
+        private void RdGerarCnpj_CheckedChanged(object sender, EventArgs e)
+        {
+            if(RdGerarCnpj.Checked)
+            {
+                LimparCampoGerado();
+            }
+        }
+
+        private void LimparCampoGerado()
+        {
+            TxtNumeroGerado.Text = string.Empty;
         }
     }
 }
