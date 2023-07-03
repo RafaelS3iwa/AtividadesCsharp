@@ -270,14 +270,7 @@ namespace ValidarCpfOuCnpj
                 string cpf = string.Concat(cpfInt);
                 string cpfFormatado = $"{cpf.Substring(0, 3)}.{cpf.Substring(3, 3)}.{cpf.Substring(6, 3)}-{cpf.Substring(9, 2)}";
 
-                if (cpfInt[9] == resto1 && cpfInt[10] == resto2)
-                {
-                    TxtNumeroGerado.Text = cpfFormatado.ToString(); 
-                }
-                else
-                {
-                    return;
-                }
+                TxtNumeroGerado.Text = cpfFormatado.ToString();          
             }
             else if (RdGerarCnpj.Checked)
             {
@@ -313,18 +306,10 @@ namespace ValidarCpfOuCnpj
 
                 cnpjInt[13] = resto2;
 
-
                 string cnpj = string.Concat(cnpjInt);
                 string cnpjFormatado = $"{cnpj.Substring(0, 2)}.{cnpj.Substring(2, 3)}.{cnpj.Substring(5, 3)}/{cnpj.Substring(8, 4)}-{cnpj.Substring(12, 2)}";
-
-                if (cnpjInt[12] == resto1 && cnpjInt[13] == resto2)
-                {
-                    TxtNumeroGerado.Text = cnpjFormatado.ToString();
-                }
-                else
-                {
-                    return;
-                }
+                
+                TxtNumeroGerado.Text = cnpjFormatado.ToString();       
             }
         }
 
@@ -373,6 +358,11 @@ namespace ValidarCpfOuCnpj
         private void LimparCampoGerado()
         {
             TxtNumeroGerado.Text = string.Empty;
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

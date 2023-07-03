@@ -96,6 +96,7 @@
             this.TxtNumero.Name = "TxtNumero";
             this.TxtNumero.Size = new System.Drawing.Size(267, 29);
             this.TxtNumero.TabIndex = 3;
+            this.TxtNumero.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtNumero.TextChanged += new System.EventHandler(this.TxtNumero_TextChanged);
             this.TxtNumero.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNumero_KeyPress);
             // 
@@ -172,6 +173,7 @@
             this.panel2.Size = new System.Drawing.Size(480, 374);
             this.panel2.TabIndex = 0;
             this.panel2.TabStop = true;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // TxtNumeroGerado
             // 
@@ -180,6 +182,7 @@
             this.TxtNumeroGerado.Name = "TxtNumeroGerado";
             this.TxtNumeroGerado.Size = new System.Drawing.Size(267, 29);
             this.TxtNumeroGerado.TabIndex = 8;
+            this.TxtNumeroGerado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BtCancelar
             // 
