@@ -1,8 +1,0 @@
-C:\Users\rafael.niyasue\source\repos\ValidarCPF\ValidarCPF\bin\Debug\ValidarCPF.exe.config
-C:\Users\rafael.niyasue\source\repos\ValidarCPF\ValidarCPF\bin\Debug\ValidarCPF.exe
-C:\Users\rafael.niyasue\source\repos\ValidarCPF\ValidarCPF\bin\Debug\ValidarCPF.pdb
-C:\Users\rafael.niyasue\source\repos\ValidarCPF\ValidarCPF\obj\Debug\ValidarCPF.csproj.AssemblyReference.cache
-C:\Users\rafael.niyasue\source\repos\ValidarCPF\ValidarCPF\obj\Debug\ValidarCPF.csproj.SuggestedBindingRedirects.cache
-C:\Users\rafael.niyasue\source\repos\ValidarCPF\ValidarCPF\obj\Debug\ValidarCPF.csproj.CoreCompileInputs.cache
-C:\Users\rafael.niyasue\source\repos\ValidarCPF\ValidarCPF\obj\Debug\ValidarCPF.exe
-C:\Users\rafael.niyasue\source\repos\ValidarCPF\ValidarCPF\obj\Debug\ValidarCPF.pdb

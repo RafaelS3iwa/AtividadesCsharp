@@ -1,0 +1,11 @@
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\bin\Debug\LoginProjeto.exe.config
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\bin\Debug\LoginProjeto.exe
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\bin\Debug\LoginProjeto.pdb
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.Form1.resources
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.Properties.Resources.resources
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.GenerateResource.cache
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.exe
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.pdb
