@@ -73,6 +73,16 @@ namespace LoginProjeto
                 MessageBox.Show("Email ou senha errados");
             }
         }
-    }
 
+        private void TxtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            panelLoginUsuario.Visible = true;
+            panelLoginEmpresa.Visible = false;
+        }
+    }
 }

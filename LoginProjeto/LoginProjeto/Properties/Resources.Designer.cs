@@ -63,6 +63,16 @@ namespace LoginProjeto.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CinzaClaroGrande {
+            get {
+                object obj = ResourceManager.GetObject("CinzaClaroGrande", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logoPMT {
             get {
                 object obj = ResourceManager.GetObject("logoPMT", resourceCulture);
@@ -76,6 +86,36 @@ namespace LoginProjeto.Properties {
         internal static System.Drawing.Bitmap logoPMT1 {
             get {
                 object obj = ResourceManager.GetObject("logoPMT1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_imageEscuro {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-imageEscuro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_imageEscuro1 {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-imageEscuro1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

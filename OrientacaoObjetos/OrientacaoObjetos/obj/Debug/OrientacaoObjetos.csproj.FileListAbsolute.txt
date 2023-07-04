@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\OrientacaoObjetos\OrientacaoObjetos\bin\Debug\OrientacaoObjetos.exe.config
+C:\Users\rafael.niyasue\source\repos\OrientacaoObjetos\OrientacaoObjetos\bin\Debug\OrientacaoObjetos.exe
+C:\Users\rafael.niyasue\source\repos\OrientacaoObjetos\OrientacaoObjetos\bin\Debug\OrientacaoObjetos.pdb
+C:\Users\rafael.niyasue\source\repos\OrientacaoObjetos\OrientacaoObjetos\obj\Debug\OrientacaoObjetos.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\OrientacaoObjetos\OrientacaoObjetos\obj\Debug\OrientacaoObjetos.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\OrientacaoObjetos\OrientacaoObjetos\obj\Debug\OrientacaoObjetos.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\OrientacaoObjetos\OrientacaoObjetos\obj\Debug\OrientacaoObjetos.exe
+C:\Users\rafael.niyasue\source\repos\OrientacaoObjetos\OrientacaoObjetos\obj\Debug\OrientacaoObjetos.pdb
