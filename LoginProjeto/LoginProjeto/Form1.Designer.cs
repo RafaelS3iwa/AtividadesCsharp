@@ -51,7 +51,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panelLoginEmpresa = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panelLoginUsuario.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -70,6 +69,7 @@
             this.label1.Size = new System.Drawing.Size(234, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login de Usuário";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // TxtEmail
             // 
@@ -214,7 +214,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 26);
@@ -354,13 +353,6 @@
             this.panelLoginEmpresa.Size = new System.Drawing.Size(390, 409);
             this.panelLoginEmpresa.TabIndex = 12;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(83, 268);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 6;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -371,8 +363,8 @@
             this.ClientSize = new System.Drawing.Size(742, 438);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panelLoginEmpresa);
             this.Controls.Add(this.panelLoginUsuario);
+            this.Controls.Add(this.panelLoginEmpresa);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
@@ -415,7 +407,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BtCadastrar;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 

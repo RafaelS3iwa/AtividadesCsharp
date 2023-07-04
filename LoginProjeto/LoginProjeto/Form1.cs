@@ -84,5 +84,10 @@ namespace LoginProjeto
             panelLoginUsuario.Visible = true;
             panelLoginEmpresa.Visible = false;
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
