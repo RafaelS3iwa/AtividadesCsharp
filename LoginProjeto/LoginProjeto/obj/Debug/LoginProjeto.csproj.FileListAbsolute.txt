@@ -9,3 +9,14 @@ C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginPr
 C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.CoreCompileInputs.cache
 C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.exe
 C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.pdb
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\bin\Debug\LoginProjeto.exe.config
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\bin\Debug\LoginProjeto.exe
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\bin\Debug\LoginProjeto.pdb
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.AssemblyReference.cache
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.Form1.resources
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.Properties.Resources.resources
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.GenerateResource.cache
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.exe
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.pdb

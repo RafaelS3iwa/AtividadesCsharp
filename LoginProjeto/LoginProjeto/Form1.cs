@@ -15,11 +15,64 @@ namespace LoginProjeto
         public Form1()
         {
             InitializeComponent();
-        }
+        }                
 
-        private void button1_Click(object sender, EventArgs e)
+        private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+        private void BtFechar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void TxtEmail_Click(object sender, EventArgs e)
+        {
+            TxtEmail.SelectAll();
+        }
+
+        private void TxtSenha_Click(object sender, EventArgs e)
+        {
+            TxtSenha.SelectAll();
+        }
+
+        private void TxtSenha_TextChanged(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(TxtSenha.Text))
+            {
+                TxtSenha.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                TxtSenha.UseSystemPasswordChar = true;
+                TxtSenha.PasswordChar = '•';
+            }
+        }
+
+        private void Entrar_Click(object sender, EventArgs e)
+        {
+            List<string> email = new List<string>();
+            email.Add("dan.rafinha@hotmail.com");
+            List<string> senha = new List<string>();
+            senha.Add("na0ki01");
+            List<long> cpf = new List<long>();
+            cpf.Add(12345678909);
+            string cpfString = string.Concat(cpf);
+
+            if (senha.Contains(TxtSenha.Text) && email.Contains(TxtEmail.Text))
+            {
+                MessageBox.Show("Bem vindo!");
+            }
+            else if(senha.Contains(TxtSenha.Text) && cpfString.Contains(TxtEmail.Text))
+            {
+                MessageBox.Show("Bem vindo!");
+            }
+            else
+            {
+                MessageBox.Show("Email ou senha errados");
+            }
+        }
     }
+
 }
