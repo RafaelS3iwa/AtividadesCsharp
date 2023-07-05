@@ -17,27 +17,52 @@ namespace LoginProjeto
             InitializeComponent();
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void FormCadastro_Load(object sender, EventArgs e)
         {
-
+            PanUsuario1.Visible = true;
+            PanUsuario2.Visible = false;
+            PanUsuario3.Visible = false;
         }
 
-        private void textBox4_TextChanged(object sender, EventArgs e)
+        private void BtContinuar_Click(object sender, EventArgs e)
         {
-
+            if(PanUsuario1.Visible == true)
+            {
+                PanUsuario1.Visible = false;
+                PanUsuario2.Visible = true;
+                PanUsuario3.Visible = false;
+            }
+            else if(PanUsuario2.Visible == true)
+            {
+                PanUsuario1.Visible = false;
+                PanUsuario2.Visible = false;
+                PanUsuario3.Visible = true;
+            }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void BtVoltar_Click(object sender, EventArgs e)
         {
-
+            if (PanUsuario1.Visible == true)
+            {
+                PanUsuario1.Visible = false;
+                PanUsuario2.Visible = true;
+                PanUsuario3.Visible = false;
+            }
+            else if (PanUsuario2.Visible == true)
+            {
+                PanUsuario1.Visible = true;
+                PanUsuario2.Visible = false;
+                PanUsuario3.Visible = false;
+            }
+            else if (PanUsuario3.Visible == true)
+            {
+                PanUsuario1.Visible = false;
+                PanUsuario2.Visible = true;
+                PanUsuario3.Visible = false;
+            }
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
+        private void BtConcluir_Click(object sender, EventArgs e)
         {
 
         }

@@ -35,8 +35,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.BtEntrar = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.BtFechar = new System.Windows.Forms.Button();
             this.panelLoginUsuario = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.BtCadastrar = new System.Windows.Forms.Button();
@@ -51,7 +49,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panelLoginEmpresa = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.BtVoltar = new System.Windows.Forms.Button();
             this.panelLoginUsuario.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -69,7 +67,6 @@
             this.label1.Size = new System.Drawing.Size(234, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login de Usuário";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // TxtEmail
             // 
@@ -138,50 +135,24 @@
             this.BtEntrar.UseVisualStyleBackColor = false;
             this.BtEntrar.Click += new System.EventHandler(this.Entrar_Click);
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.BackgroundImage = global::LoginProjeto.Properties.Resources.logoPMT;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.BtFechar);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.ForeColor = System.Drawing.Color.Red;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(742, 26);
-            this.panel1.TabIndex = 9;
-            // 
-            // BtFechar
-            // 
-            this.BtFechar.BackColor = System.Drawing.Color.Transparent;
-            this.BtFechar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.BtFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtFechar.ForeColor = System.Drawing.Color.LightCoral;
-            this.BtFechar.Location = new System.Drawing.Point(681, 0);
-            this.BtFechar.Name = "BtFechar";
-            this.BtFechar.Size = new System.Drawing.Size(59, 24);
-            this.BtFechar.TabIndex = 0;
-            this.BtFechar.Text = "X";
-            this.BtFechar.UseVisualStyleBackColor = false;
-            this.BtFechar.Click += new System.EventHandler(this.BtFechar_Click);
-            // 
             // panelLoginUsuario
             // 
             this.panelLoginUsuario.BackColor = System.Drawing.Color.Black;
             this.panelLoginUsuario.BackgroundImage = global::LoginProjeto.Properties.Resources.teste1;
+            this.panelLoginUsuario.Controls.Add(this.BtVoltar);
+            this.panelLoginUsuario.Controls.Add(this.BtEntrar);
             this.panelLoginUsuario.Controls.Add(this.label4);
             this.panelLoginUsuario.Controls.Add(this.BtCadastrar);
-            this.panelLoginUsuario.Controls.Add(this.BtEntrar);
             this.panelLoginUsuario.Controls.Add(this.label3);
             this.panelLoginUsuario.Controls.Add(this.label2);
             this.panelLoginUsuario.Controls.Add(this.TxtSenha);
             this.panelLoginUsuario.Controls.Add(this.TxtEmail);
             this.panelLoginUsuario.Controls.Add(this.label1);
+            this.panelLoginUsuario.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelLoginUsuario.ForeColor = System.Drawing.SystemColors.Control;
-            this.panelLoginUsuario.Location = new System.Drawing.Point(355, 26);
+            this.panelLoginUsuario.Location = new System.Drawing.Point(352, 0);
             this.panelLoginUsuario.Name = "panelLoginUsuario";
-            this.panelLoginUsuario.Size = new System.Drawing.Size(390, 409);
+            this.panelLoginUsuario.Size = new System.Drawing.Size(390, 438);
             this.panelLoginUsuario.TabIndex = 11;
             this.panelLoginUsuario.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
@@ -189,8 +160,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Image = global::LoginProjeto.Properties.Resources.MicrosoftTeams_image;
-            this.label4.Location = new System.Drawing.Point(80, 333);
+            this.label4.Location = new System.Drawing.Point(80, 340);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(136, 16);
             this.label4.TabIndex = 10;
@@ -204,7 +176,7 @@
             this.BtCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtCadastrar.ForeColor = System.Drawing.Color.IndianRed;
-            this.BtCadastrar.Location = new System.Drawing.Point(222, 330);
+            this.BtCadastrar.Location = new System.Drawing.Point(222, 337);
             this.BtCadastrar.Name = "BtCadastrar";
             this.BtCadastrar.Size = new System.Drawing.Size(103, 23);
             this.BtCadastrar.TabIndex = 9;
@@ -216,9 +188,9 @@
             this.panel2.BackColor = System.Drawing.Color.Transparent;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel2.Location = new System.Drawing.Point(0, 26);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(399, 412);
+            this.panel2.Size = new System.Drawing.Size(399, 438);
             this.panel2.TabIndex = 10;
             // 
             // pictureBox1
@@ -229,7 +201,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(399, 412);
+            this.pictureBox1.Size = new System.Drawing.Size(399, 438);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -347,11 +319,26 @@
             this.panelLoginEmpresa.Controls.Add(this.TextBoxSenhaEmpresa);
             this.panelLoginEmpresa.Controls.Add(this.TextBoxLoginEmpresa);
             this.panelLoginEmpresa.Controls.Add(this.label8);
+            this.panelLoginEmpresa.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelLoginEmpresa.ForeColor = System.Drawing.SystemColors.Control;
-            this.panelLoginEmpresa.Location = new System.Drawing.Point(355, 26);
+            this.panelLoginEmpresa.Location = new System.Drawing.Point(-38, 0);
             this.panelLoginEmpresa.Name = "panelLoginEmpresa";
-            this.panelLoginEmpresa.Size = new System.Drawing.Size(390, 409);
+            this.panelLoginEmpresa.Size = new System.Drawing.Size(390, 438);
             this.panelLoginEmpresa.TabIndex = 12;
+            // 
+            // BtVoltar
+            // 
+            this.BtVoltar.BackColor = System.Drawing.Color.IndianRed;
+            this.BtVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtVoltar.ForeColor = System.Drawing.Color.White;
+            this.BtVoltar.Location = new System.Drawing.Point(40, 394);
+            this.BtVoltar.Name = "BtVoltar";
+            this.BtVoltar.Size = new System.Drawing.Size(78, 32);
+            this.BtVoltar.TabIndex = 7;
+            this.BtVoltar.Text = "Voltar";
+            this.BtVoltar.UseVisualStyleBackColor = false;
+            this.BtVoltar.Click += new System.EventHandler(this.BtVoltar_Click);
             // 
             // Form1
             // 
@@ -362,17 +349,15 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(742, 438);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panelLoginUsuario);
             this.Controls.Add(this.panelLoginEmpresa);
+            this.Controls.Add(this.panelLoginUsuario);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.panel1.ResumeLayout(false);
             this.panelLoginUsuario.ResumeLayout(false);
             this.panelLoginUsuario.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -391,8 +376,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button BtEntrar;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button BtFechar;
         private System.Windows.Forms.Panel panelLoginUsuario;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -407,6 +390,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button BtCadastrar;
+        private System.Windows.Forms.Button BtVoltar;
     }
 }
 

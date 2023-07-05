@@ -23,6 +23,17 @@ namespace OrientacaoObjetos
 
             biblioteca.CadastrarLivro(livro);
             biblioteca.MostrarCatalogo();
+
+            Livro livro2 = new Livro();
+
+            livro2.IdLivro = 2;
+            livro2.Titulo = "O último desejo -The Witcher -";
+            livro2.Autor = " Andrzej Sapkowski";
+            livro2.Valor = 43;
+            livro2.NumeroPaginas = 318;
+
+
+            biblioteca.CadastrarLivro(livro2);
         }
     }
 }

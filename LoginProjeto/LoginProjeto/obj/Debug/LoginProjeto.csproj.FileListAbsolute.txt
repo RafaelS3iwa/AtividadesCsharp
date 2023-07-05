@@ -21,3 +21,4 @@ C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginPro
 C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.exe
 C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.pdb
 C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.FormCadastro.resources
+C:\Users\rafael.niyasue\source\repos\LoginProjeto\LoginProjeto\obj\Debug\LoginProjeto.FormTelaInicial.resources

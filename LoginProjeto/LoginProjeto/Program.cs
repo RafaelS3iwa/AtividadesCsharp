@@ -16,7 +16,16 @@ namespace LoginProjeto
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            FormTelaInicial formTelaInicial = new FormTelaInicial();
+
+            Form1 form1 = new Form1();
+            form1.Hide();
+
+            FormCadastro form2 = new FormCadastro();
+            form2.Hide();
+
+            Application.Run(formTelaInicial);
         }
     }
 }

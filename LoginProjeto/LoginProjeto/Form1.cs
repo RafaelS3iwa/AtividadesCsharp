@@ -17,6 +17,19 @@ namespace LoginProjeto
             InitializeComponent();
         }                
 
+        public void MostrarPanelUsuario()
+        {
+            panelLoginUsuario.Visible = true;
+            panelLoginEmpresa.Visible = false;
+        }
+
+        public void MostrarPanelEmpresa()
+        {
+            panelLoginUsuario.Visible = false;
+            panelLoginEmpresa.Visible = true;
+        }
+
+
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
@@ -81,13 +94,13 @@ namespace LoginProjeto
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            panelLoginUsuario.Visible = true;
-            panelLoginEmpresa.Visible = false;
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void BtVoltar_Click(object sender, EventArgs e)
         {
-
+            FormTelaInicial formTelaInicial = new FormTelaInicial();
+            formTelaInicial.Show();
+            this.Hide();
         }
     }
 }
