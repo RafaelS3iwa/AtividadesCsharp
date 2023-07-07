@@ -10,10 +10,19 @@ namespace AtividadeClasses
 {
     internal class Vendas 
     {
-        Cliente cliente = new Cliente();
-        Produto produto = new Produto();
 
-        private double ValorTotal {  get; set; }
+        private Cliente Itens;
+        private Produto Preco;
+        public double ValorTotal
+        {
+            get { return Itens.Quantidade * Preco.Valor; }
+        }
+
+        public Vendas(Cliente itens, Produto preco)
+        {
+            Itens = itens;
+            Preco = preco;
+        }
     }
 
 }

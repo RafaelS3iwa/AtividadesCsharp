@@ -9,14 +9,14 @@ namespace AtividadeClasses
     internal class Produto
     {
         private int IdProduto { get; set; }
-        private string Nome {  get; set; }
-        private double Preco { get; set; }
+        public string Nome {  get; set; }
+        public double Valor { get; set; }
 
-        public Produto(int idProduto = 0, string nome = "", double preco = 0)
+        public Produto(int idProduto = 0, string nome = "", double valor = 0)
         {
             IdProduto = idProduto;
             Nome = nome;    
-            Preco = preco;
+            Valor = valor;
         }
     }
 }

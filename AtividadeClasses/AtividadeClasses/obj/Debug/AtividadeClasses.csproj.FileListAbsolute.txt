@@ -1,0 +1,8 @@
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\AtividadeClasses\AtividadeClasses\bin\Debug\AtividadeClasses.exe.config
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\AtividadeClasses\AtividadeClasses\bin\Debug\AtividadeClasses.exe
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\AtividadeClasses\AtividadeClasses\bin\Debug\AtividadeClasses.pdb
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\AtividadeClasses\AtividadeClasses\obj\Debug\AtividadeClasses.csproj.AssemblyReference.cache
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\AtividadeClasses\AtividadeClasses\obj\Debug\AtividadeClasses.csproj.SuggestedBindingRedirects.cache
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\AtividadeClasses\AtividadeClasses\obj\Debug\AtividadeClasses.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\AtividadeClasses\AtividadeClasses\obj\Debug\AtividadeClasses.exe
+C:\Users\Rafael\OneDrive\Documents\GitHub\AtividadesCsharp\AtividadeClasses\AtividadeClasses\obj\Debug\AtividadeClasses.pdb
