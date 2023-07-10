@@ -7,19 +7,42 @@ using System.Threading.Tasks;
 namespace AtividadeClasses
 {
     internal class Cliente
-    {   
-        public int IdCliente { get; set; }
-        public string Nome { get; set; }
-        private string Cpf { get; set; }    
-        private double Saldo { get; set; }
-        public int Quantidade { get; set; }
+    {
+        private static int adicionarId = 0;
 
-        public Cliente(int idCliente = 0, string nome = "", double saldo = 0, int quantidade = 0)
+        public int IdCliente { get; }
+        private string nome { get; }
+        private string cpf { get; }
+        private double saldo; 
+        private int quantidade { get; set; }
+        
+        public Cliente()
         {
-            IdCliente = idCliente;
-            Nome = nome;
-            Saldo = saldo;
-            Quantidade = quantidade;
+            adicionarId++;
+            IdCliente = adicionarId;
         }
+
+
+        public int Quantidade
+        {
+            get { return quantidade; }
+            set
+            {
+                if (value > 0) quantidade = value;
+                else return;
+            }
+        }
+
+        public double Saldo
+        {
+            get { return saldo; }
+            set
+            {
+                if (value >= 0) saldo = value;
+                else Console.WriteLine("Saldo inválido");
+            }
+        }
+
+
     }
 }

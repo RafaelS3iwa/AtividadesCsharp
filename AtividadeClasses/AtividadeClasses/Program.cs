@@ -10,14 +10,21 @@ namespace AtividadeClasses
     {
         static void Main(string[] args)
         {
-            Cliente cliente = new Cliente(idCliente: 1, nome: "Rafael", quantidade: 10);
+            Cliente cliente = new Cliente();
+            cliente.Saldo = 20;
+            cliente.Quantidade = 3;
 
-            Produto produto = new Produto(idProduto: 1, nome: "Paçoca", valor: 5);
+
+            Produto produto = new Produto();
+            produto.Valor = 30;
+
             Vendas venda = new Vendas(cliente, produto);
 
             double valorTotal = venda.ValorTotal;
 
-            Console.WriteLine($"O cliente {cliente.Nome} comprou {cliente.Quantidade} quantidades do produto {produto.Nome} totalizando um valor de\n" +
+
+            venda.VerificarSaldo();
+            Console.WriteLine($"O cliente {cliente.IdCliente} comprou {cliente.Quantidade} do produto {produto.idProduto} totalizando um valor de\n" +
                 $"{valorTotal:c}");
         }
     }

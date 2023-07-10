@@ -1,0 +1,8 @@
+C:\Users\rafael.niyasue\source\repos\CpfAndCnpj\CpfAndCnpj\bin\Debug\CpfAndCnpj.exe.config
+C:\Users\rafael.niyasue\source\repos\CpfAndCnpj\CpfAndCnpj\bin\Debug\CpfAndCnpj.exe
+C:\Users\rafael.niyasue\source\repos\CpfAndCnpj\CpfAndCnpj\bin\Debug\CpfAndCnpj.pdb
+C:\Users\rafael.niyasue\source\repos\CpfAndCnpj\CpfAndCnpj\obj\Debug\CpfAndCnpj.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\CpfAndCnpj\CpfAndCnpj\obj\Debug\CpfAndCnpj.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\CpfAndCnpj\CpfAndCnpj\obj\Debug\CpfAndCnpj.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\CpfAndCnpj\CpfAndCnpj\obj\Debug\CpfAndCnpj.exe
+C:\Users\rafael.niyasue\source\repos\CpfAndCnpj\CpfAndCnpj\obj\Debug\CpfAndCnpj.pdb
