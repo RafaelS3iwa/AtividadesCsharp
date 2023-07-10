@@ -36,10 +36,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.BtEntrar = new System.Windows.Forms.Button();
             this.panelLoginUsuario = new System.Windows.Forms.Panel();
-            this.BtVoltar = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.BtCadastrar = new System.Windows.Forms.Button();
+            this.BtVoltar = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.TextBoxLoginEmpresa = new System.Windows.Forms.TextBox();
@@ -50,7 +51,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panelLoginEmpresa = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
             this.panelLoginUsuario.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -156,20 +156,6 @@
             this.panelLoginUsuario.TabIndex = 11;
             this.panelLoginUsuario.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
-            // BtVoltar
-            // 
-            this.BtVoltar.BackColor = System.Drawing.Color.Transparent;
-            this.BtVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtVoltar.ForeColor = System.Drawing.Color.IndianRed;
-            this.BtVoltar.Location = new System.Drawing.Point(12, 394);
-            this.BtVoltar.Name = "BtVoltar";
-            this.BtVoltar.Size = new System.Drawing.Size(62, 32);
-            this.BtVoltar.TabIndex = 7;
-            this.BtVoltar.Text = "Voltar";
-            this.BtVoltar.UseVisualStyleBackColor = false;
-            this.BtVoltar.Click += new System.EventHandler(this.BtVoltar_Click);
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -197,6 +183,20 @@
             this.BtCadastrar.Text = "Cadastre-se";
             this.BtCadastrar.UseVisualStyleBackColor = false;
             // 
+            // BtVoltar
+            // 
+            this.BtVoltar.BackColor = System.Drawing.Color.Transparent;
+            this.BtVoltar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtVoltar.ForeColor = System.Drawing.Color.IndianRed;
+            this.BtVoltar.Location = new System.Drawing.Point(12, 394);
+            this.BtVoltar.Name = "BtVoltar";
+            this.BtVoltar.Size = new System.Drawing.Size(62, 32);
+            this.BtVoltar.TabIndex = 7;
+            this.BtVoltar.Text = "Voltar";
+            this.BtVoltar.UseVisualStyleBackColor = false;
+            this.BtVoltar.Click += new System.EventHandler(this.BtVoltar_Click);
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Transparent;
@@ -208,6 +208,20 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(399, 438);
             this.panel2.TabIndex = 10;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.IndianRed;
+            this.button3.Location = new System.Drawing.Point(12, 394);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(62, 32);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Voltar";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.BtVoltar_Click);
             // 
             // pictureBox1
             // 
@@ -341,19 +355,6 @@
             this.panelLoginEmpresa.Name = "panelLoginEmpresa";
             this.panelLoginEmpresa.Size = new System.Drawing.Size(390, 438);
             this.panelLoginEmpresa.TabIndex = 12;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.IndianRed;
-            this.button3.Location = new System.Drawing.Point(12, 394);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(62, 32);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Voltar";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // Form1
             // 
