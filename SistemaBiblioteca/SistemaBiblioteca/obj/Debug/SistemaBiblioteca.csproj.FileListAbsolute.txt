@@ -1,0 +1,12 @@
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.exe.config
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.exe
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\bin\Debug\SistemaBiblioteca.pdb
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csproj.AssemblyReference.cache
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csproj.SuggestedBindingRedirects.cache
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.FrmCadastroAluno.resources
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.Properties.Resources.resources
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csproj.GenerateResource.cache
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.exe
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.pdb
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.FrmCadastroLivro.resources
