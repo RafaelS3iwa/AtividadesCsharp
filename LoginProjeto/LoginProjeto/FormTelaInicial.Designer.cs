@@ -35,7 +35,7 @@
             this.BtLoginUsuario = new System.Windows.Forms.Button();
             this.BtLoginEmpresa = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.BtCadastroUsuario = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -101,7 +101,7 @@
             this.BtLoginUsuario.TabIndex = 20;
             this.BtLoginUsuario.Text = "Usuário";
             this.BtLoginUsuario.UseVisualStyleBackColor = false;
-            this.BtLoginUsuario.Click += new System.EventHandler(this.button1_Click);
+            this.BtLoginUsuario.Click += new System.EventHandler(this.BtLoginUsuario_Click);
             // 
             // BtLoginEmpresa
             // 
@@ -130,25 +130,26 @@
             this.button3.Text = "Empresa";
             this.button3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // BtCadastroUsuario
             // 
-            this.button4.BackColor = System.Drawing.Color.IndianRed;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(62, 280);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 29);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "Usuário";
-            this.button4.UseVisualStyleBackColor = false;
+            this.BtCadastroUsuario.BackColor = System.Drawing.Color.IndianRed;
+            this.BtCadastroUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.BtCadastroUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtCadastroUsuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BtCadastroUsuario.Location = new System.Drawing.Point(62, 280);
+            this.BtCadastroUsuario.Name = "BtCadastroUsuario";
+            this.BtCadastroUsuario.Size = new System.Drawing.Size(107, 29);
+            this.BtCadastroUsuario.TabIndex = 22;
+            this.BtCadastroUsuario.Text = "Usuário";
+            this.BtCadastroUsuario.UseVisualStyleBackColor = false;
+            this.BtCadastroUsuario.Click += new System.EventHandler(this.BtCadastroUsuario_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::LoginProjeto.Properties.Resources.teste1;
             this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.BtCadastroUsuario);
             this.panel1.Controls.Add(this.BtLoginEmpresa);
             this.panel1.Controls.Add(this.BtLoginUsuario);
             this.panel1.Controls.Add(this.label4);
@@ -187,7 +188,7 @@
         private System.Windows.Forms.Button BtLoginUsuario;
         private System.Windows.Forms.Button BtLoginEmpresa;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button BtCadastroUsuario;
         private System.Windows.Forms.Panel panel1;
     }
 }

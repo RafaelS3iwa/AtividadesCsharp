@@ -87,15 +87,6 @@ namespace LoginProjeto
             }
         }
 
-        private void TxtEmail_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
-
         private void BtVoltar_Click(object sender, EventArgs e)
         {
             FormTelaInicial formTelaInicial = new FormTelaInicial();

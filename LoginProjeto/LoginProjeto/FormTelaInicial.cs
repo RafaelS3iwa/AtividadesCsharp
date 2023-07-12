@@ -22,7 +22,7 @@ namespace LoginProjeto
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtLoginUsuario_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
             form1.Show();
@@ -35,6 +35,14 @@ namespace LoginProjeto
             Form1 form1 = new Form1();
             form1.Show();
             form1.MostrarPanelEmpresa();
+            this.Hide();
+        }
+
+        private void BtCadastroUsuario_Click(object sender, EventArgs e)
+        {
+            FormCadastro formCadastro = new FormCadastro();
+            formCadastro.Show();
+            formCadastro.MostrarUsuarioCadastro();
             this.Hide();
         }
     }

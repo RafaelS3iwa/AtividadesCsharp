@@ -17,11 +17,16 @@ namespace LoginProjeto
             InitializeComponent();
         }
 
-        private void FormCadastro_Load(object sender, EventArgs e)
+        public void MostrarUsuarioCadastro()
         {
             PanUsuario1.Visible = true;
             PanUsuario2.Visible = false;
             PanUsuario3.Visible = false;
+        }
+
+        private void FormCadastro_Load(object sender, EventArgs e)
+        {
+    
         }
 
         private void BtContinuar_Click(object sender, EventArgs e)
@@ -35,7 +40,7 @@ namespace LoginProjeto
             else if(PanUsuario2.Visible == true)
             {
                 PanUsuario1.Visible = false;
-                PanUsuario2.Visible = false;
+                PanUsuario2.Visible = false;               
                 PanUsuario3.Visible = true;
             }
         }
@@ -44,9 +49,9 @@ namespace LoginProjeto
         {
             if (PanUsuario1.Visible == true)
             {
-                PanUsuario1.Visible = false;
-                PanUsuario2.Visible = true;
-                PanUsuario3.Visible = false;
+                FormTelaInicial formTelaInicial = new FormTelaInicial();
+                formTelaInicial.Show();
+                this.Hide();
             }
             else if (PanUsuario2.Visible == true)
             {
@@ -63,6 +68,13 @@ namespace LoginProjeto
         }
 
         private void BtConcluir_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
+
+        private void PanUsuario3_Paint(object sender, PaintEventArgs e)
         {
 
         }

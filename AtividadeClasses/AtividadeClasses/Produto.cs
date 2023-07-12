@@ -9,10 +9,9 @@ namespace AtividadeClasses
     internal class Produto
     {
         private static int adicionarId = 0;
-        private Dictionary<string, double> produtos = new Dictionary<string, double>();
 
         public int idProduto { get; }
-        private string nome { get; }
+        private string nome { get; set; }
         private double valor { get; set; }
 
         public Produto()
@@ -34,32 +33,16 @@ namespace AtividadeClasses
         public string Nome
         {
             get { return nome; }
+            set
+            {
+                if (value != null) nome = value;
+                else Console.WriteLine("Nome inválido");
+            }
         }
 
-        public Dictionary<string, double> Produtos => produtos;
-
-        public void AdicionarProduto(Dictionary<string, double> produtos, string nome, double valor)
+        public virtual void MostrarProdutos()
         {
-            while (true)
-            {
-                Console.Write("Digite o nome do produto que deseja adicionar ('sair' para encerrar): ");
-                nome = Console.ReadLine();
-
-                if(nome.ToLower() == "sair")
-                {
-                    break;
-                }
-
-                Console.WriteLine("Digite agora o valor do produto: ");
-                if (double.TryParse(Console.ReadLine(), out valor))
-                {
-                    produtos[nome] = valor;
-                }
-                else
-                {
-                    Console.WriteLine("Valor Inválido");
-                }
-            }
+            Console.WriteLine($"{nome} ----------- {valor:c}");
         }
     }
 }
