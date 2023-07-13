@@ -5,26 +5,43 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using AtividadeClasses.Produtos;
 
 namespace AtividadeClasses
 {
     internal class Vendas
     {
+        private List<Produto> listaDeCompras = new List<Produto>();
+
 
         private Cliente cliente;
         private Produto produto;
-        private double valorTotal => cliente.Quantidade * produto.Valor;
 
-        public double ValorTotal
-        {
-            get { return valorTotal; }
-        }
+        private double valorTotal => CalcularValorTotal();
 
 
         public Vendas(Cliente quantidade, Produto valor)
         {
             cliente = quantidade;
             produto = valor;
+        }
+
+        public List<Produto> ListaDeCompras => listaDeCompras;
+
+        public void AdicionarProduto(Produto produto)
+        {
+            listaDeCompras.Add(produto);
+        }
+
+        public double CalcularValorTotal()
+        {
+            double valorTotal = 0;
+            foreach(Produto produto in listaDeCompras)
+            {
+                double valorProduto = cliente.Quantidade * produto.Valor;
+                valorTotal += valorProduto;
+            }
+            return valorTotal;
         }
 
         public void VerificarSaldo()
@@ -38,6 +55,7 @@ namespace AtividadeClasses
                 Console.WriteLine("A compra não pode ser realizada, pois seu saldo está a baixo do valor do produto.");
             }           
         }
+
         private bool SaldoSuficiente()
         {
             return cliente.Saldo > produto.Valor;
@@ -45,10 +63,10 @@ namespace AtividadeClasses
 
         private void RealizarCompra()
         {
-            double saldo = cliente.Saldo - ValorTotal;
-            if (saldo >= ValorTotal - cliente.Saldo)
+            double saldo = cliente.Saldo - valorTotal;
+            if (saldo >= valorTotal - cliente.Saldo)
             {
-                Console.WriteLine($"A compra foi realizada com sucesso, seu saldo final está em {saldo}");
+                Console.WriteLine($"A compra foi realizada com sucesso, seu saldo final está em {saldo:c}");
             }
             else
             {

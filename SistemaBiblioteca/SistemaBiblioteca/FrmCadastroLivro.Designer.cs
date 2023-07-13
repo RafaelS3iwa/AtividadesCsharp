@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DgvLivro = new System.Windows.Forms.DataGridView();
             this.TxtAutor = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.TxtTitulo = new System.Windows.Forms.TextBox();
@@ -37,9 +37,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.TxtPreco = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.TxtAnoPublicacao = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.TxtIsbn = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.BtnExcluir = new System.Windows.Forms.Button();
             this.BtnAtualizar = new System.Windows.Forms.Button();
@@ -47,16 +45,18 @@
             this.BtnPesquisar = new System.Windows.Forms.Button();
             this.TxtCodLivro = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.TxtIsbn = new System.Windows.Forms.MaskedTextBox();
+            this.TxtAnoPublicacao = new System.Windows.Forms.MaskedTextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.DgvLivro)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DgvLivro
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 223);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(658, 167);
-            this.dataGridView1.TabIndex = 19;
+            this.DgvLivro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvLivro.Location = new System.Drawing.Point(12, 223);
+            this.DgvLivro.Name = "DgvLivro";
+            this.DgvLivro.Size = new System.Drawing.Size(658, 167);
+            this.DgvLivro.TabIndex = 19;
             // 
             // TxtAutor
             // 
@@ -93,7 +93,6 @@
             this.label1.Size = new System.Drawing.Size(40, 16);
             this.label1.TabIndex = 20;
             this.label1.Text = "Título";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // TxtNumeroPaginas
             // 
@@ -120,7 +119,6 @@
             this.TxtPreco.Name = "TxtPreco";
             this.TxtPreco.Size = new System.Drawing.Size(88, 26);
             this.TxtPreco.TabIndex = 27;
-            this.TxtPreco.TextChanged += new System.EventHandler(this.TxtPesquisar_TextChanged);
             // 
             // label7
             // 
@@ -131,15 +129,6 @@
             this.label7.Size = new System.Drawing.Size(43, 16);
             this.label7.TabIndex = 26;
             this.label7.Text = "Preço";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // TxtAnoPublicacao
-            // 
-            this.TxtAnoPublicacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAnoPublicacao.Location = new System.Drawing.Point(530, 66);
-            this.TxtAnoPublicacao.Name = "TxtAnoPublicacao";
-            this.TxtAnoPublicacao.Size = new System.Drawing.Size(140, 26);
-            this.TxtAnoPublicacao.TabIndex = 29;
             // 
             // label4
             // 
@@ -150,15 +139,6 @@
             this.label4.Size = new System.Drawing.Size(121, 16);
             this.label4.TabIndex = 28;
             this.label4.Text = "Ano de Publicação";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // TxtIsbn
-            // 
-            this.TxtIsbn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtIsbn.Location = new System.Drawing.Point(301, 123);
-            this.TxtIsbn.Name = "TxtIsbn";
-            this.TxtIsbn.Size = new System.Drawing.Size(202, 26);
-            this.TxtIsbn.TabIndex = 31;
             // 
             // label2
             // 
@@ -199,6 +179,7 @@
             this.BtnAdicionar.TabIndex = 32;
             this.BtnAdicionar.Text = "Adicionar";
             this.BtnAdicionar.UseVisualStyleBackColor = true;
+            this.BtnAdicionar.Click += new System.EventHandler(this.BtnAdicionar_Click);
             // 
             // BtnPesquisar
             // 
@@ -228,20 +209,39 @@
             this.label5.TabIndex = 35;
             this.label5.Text = "Cod.Livro";
             // 
+            // TxtIsbn
+            // 
+            this.TxtIsbn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtIsbn.Location = new System.Drawing.Point(301, 123);
+            this.TxtIsbn.Mask = "000-0-0000-0000-0";
+            this.TxtIsbn.Name = "TxtIsbn";
+            this.TxtIsbn.Size = new System.Drawing.Size(202, 26);
+            this.TxtIsbn.TabIndex = 38;
+            // 
+            // TxtAnoPublicacao
+            // 
+            this.TxtAnoPublicacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtAnoPublicacao.Location = new System.Drawing.Point(527, 62);
+            this.TxtAnoPublicacao.Mask = "00/00/0000";
+            this.TxtAnoPublicacao.Name = "TxtAnoPublicacao";
+            this.TxtAnoPublicacao.Size = new System.Drawing.Size(143, 26);
+            this.TxtAnoPublicacao.TabIndex = 39;
+            this.TxtAnoPublicacao.ValidatingType = typeof(System.DateTime);
+            // 
             // FrmCadastroLivro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(682, 402);
+            this.Controls.Add(this.TxtAnoPublicacao);
+            this.Controls.Add(this.TxtIsbn);
             this.Controls.Add(this.BtnPesquisar);
             this.Controls.Add(this.TxtCodLivro);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.BtnExcluir);
             this.Controls.Add(this.BtnAtualizar);
             this.Controls.Add(this.BtnAdicionar);
-            this.Controls.Add(this.TxtIsbn);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.TxtAnoPublicacao);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.TxtPreco);
             this.Controls.Add(this.label7);
@@ -251,12 +251,13 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TxtTitulo);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DgvLivro);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "FrmCadastroLivro";
             this.Text = "Cadastro de Livro";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.FrmCadastroLivro_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.DgvLivro)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,7 +265,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DgvLivro;
         private System.Windows.Forms.TextBox TxtAutor;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox TxtTitulo;
@@ -273,9 +274,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox TxtPreco;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox TxtAnoPublicacao;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox TxtIsbn;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button BtnExcluir;
         private System.Windows.Forms.Button BtnAtualizar;
@@ -283,5 +282,7 @@
         private System.Windows.Forms.Button BtnPesquisar;
         private System.Windows.Forms.TextBox TxtCodLivro;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.MaskedTextBox TxtIsbn;
+        private System.Windows.Forms.MaskedTextBox TxtAnoPublicacao;
     }
 }
