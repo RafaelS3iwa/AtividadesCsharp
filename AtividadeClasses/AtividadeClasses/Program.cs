@@ -14,10 +14,6 @@ namespace AtividadeClasses
             Cliente cliente = new Cliente();
             cliente.Saldo = 1000;
 
-            Console.WriteLine("Digite a quantidade de produtos que você quer: ");
-            int quantidade = Convert.ToInt32(Console.ReadLine());
-            cliente.Quantidade = quantidade;     
-
             Produto produto = new Produto();
             produto.Nome = "Batata";
             produto.Valor = 15;
@@ -27,6 +23,12 @@ namespace AtividadeClasses
             produto1.Valor = 5;
 
             Vendas venda = new Vendas(cliente, produto);
+            Doce doce; 
+
+            Doce bolo = new Doce("Bolo", 25.3);
+            Doce chocolate = new Doce("Chocolate", 10.2);
+
+            doce.MostrarProdutos();
 
             venda.AdicionarProduto(produto);
             venda.AdicionarProduto(produto1);
@@ -38,8 +40,7 @@ namespace AtividadeClasses
 
             Console.WriteLine($"O cliente comprou {cliente.Quantidade} quantiades de {produto.Nome} e {cliente.Quantidade} de {produto1.Nome}");
             Console.WriteLine($"o valor total foi de: {valorTotal:c}");
-            venda.VerificarSaldo();
-
+            venda.VerificarSaldo();          
         }
     }
 }

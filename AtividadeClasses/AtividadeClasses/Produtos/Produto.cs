@@ -19,6 +19,11 @@ namespace AtividadeClasses.Produtos
             adicionarId++;
             idProduto = adicionarId;
         }
+        public Produto(string nome, double valor)
+        {
+            Nome = nome;
+            Valor = valor;
+        }
 
         public double Valor
         {
