@@ -78,5 +78,10 @@ namespace LoginProjeto
         {
 
         }
+
+        private void TxtCPF_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

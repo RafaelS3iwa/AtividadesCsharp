@@ -164,6 +164,7 @@
             this.BtnAtualizar.TabIndex = 15;
             this.BtnAtualizar.Text = "Atualizar";
             this.BtnAtualizar.UseVisualStyleBackColor = true;
+            this.BtnAtualizar.Click += new System.EventHandler(this.BtnAtualizar_Click);
             // 
             // BtnExcluir
             // 
@@ -174,6 +175,7 @@
             this.BtnExcluir.TabIndex = 16;
             this.BtnExcluir.Text = "Excluir";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // BtnPesquisar
             // 
@@ -184,14 +186,18 @@
             this.BtnPesquisar.TabIndex = 17;
             this.BtnPesquisar.Text = "Pesquisar";
             this.BtnPesquisar.UseVisualStyleBackColor = true;
+            this.BtnPesquisar.Click += new System.EventHandler(this.BtnPesquisar_Click);
             // 
             // DgvAlunos
             // 
             this.DgvAlunos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvAlunos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.DgvAlunos.Location = new System.Drawing.Point(15, 223);
             this.DgvAlunos.Name = "DgvAlunos";
+            this.DgvAlunos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvAlunos.Size = new System.Drawing.Size(652, 167);
             this.DgvAlunos.TabIndex = 18;
+            this.DgvAlunos.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvAlunos_CellContentClick);
             // 
             // TxtDataNascimento
             // 

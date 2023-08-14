@@ -43,7 +43,7 @@
             this.BtnAtualizar = new System.Windows.Forms.Button();
             this.BtnAdicionar = new System.Windows.Forms.Button();
             this.BtnPesquisar = new System.Windows.Forms.Button();
-            this.TxtCodLivro = new System.Windows.Forms.TextBox();
+            this.TxtPesquisar = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.TxtIsbn = new System.Windows.Forms.MaskedTextBox();
             this.TxtAnoPublicacao = new System.Windows.Forms.MaskedTextBox();
@@ -53,10 +53,13 @@
             // DgvLivro
             // 
             this.DgvLivro.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DgvLivro.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.DgvLivro.Location = new System.Drawing.Point(12, 223);
             this.DgvLivro.Name = "DgvLivro";
+            this.DgvLivro.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.DgvLivro.Size = new System.Drawing.Size(658, 167);
             this.DgvLivro.TabIndex = 19;
+            this.DgvLivro.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvLivro_CellContentClick);
             // 
             // TxtAutor
             // 
@@ -83,6 +86,7 @@
             this.TxtTitulo.Name = "TxtTitulo";
             this.TxtTitulo.Size = new System.Drawing.Size(293, 26);
             this.TxtTitulo.TabIndex = 21;
+            this.TxtTitulo.TextChanged += new System.EventHandler(this.TxtTitulo_TextChanged);
             // 
             // label1
             // 
@@ -159,6 +163,7 @@
             this.BtnExcluir.TabIndex = 34;
             this.BtnExcluir.Text = "Excluir";
             this.BtnExcluir.UseVisualStyleBackColor = true;
+            this.BtnExcluir.Click += new System.EventHandler(this.BtnExcluir_Click);
             // 
             // BtnAtualizar
             // 
@@ -169,6 +174,7 @@
             this.BtnAtualizar.TabIndex = 33;
             this.BtnAtualizar.Text = "Atualizar";
             this.BtnAtualizar.UseVisualStyleBackColor = true;
+            this.BtnAtualizar.Click += new System.EventHandler(this.BtnAtualizar_Click);
             // 
             // BtnAdicionar
             // 
@@ -190,14 +196,15 @@
             this.BtnPesquisar.TabIndex = 37;
             this.BtnPesquisar.Text = "Pesquisar";
             this.BtnPesquisar.UseVisualStyleBackColor = true;
+            this.BtnPesquisar.Click += new System.EventHandler(this.BtnPesquisar_Click);
             // 
-            // TxtCodLivro
+            // TxtPesquisar
             // 
-            this.TxtCodLivro.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCodLivro.Location = new System.Drawing.Point(415, 171);
-            this.TxtCodLivro.Name = "TxtCodLivro";
-            this.TxtCodLivro.Size = new System.Drawing.Size(88, 26);
-            this.TxtCodLivro.TabIndex = 36;
+            this.TxtPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtPesquisar.Location = new System.Drawing.Point(415, 171);
+            this.TxtPesquisar.Name = "TxtPesquisar";
+            this.TxtPesquisar.Size = new System.Drawing.Size(88, 26);
+            this.TxtPesquisar.TabIndex = 36;
             // 
             // label5
             // 
@@ -221,12 +228,12 @@
             // TxtAnoPublicacao
             // 
             this.TxtAnoPublicacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtAnoPublicacao.Location = new System.Drawing.Point(527, 62);
-            this.TxtAnoPublicacao.Mask = "00/00/0000";
+            this.TxtAnoPublicacao.Location = new System.Drawing.Point(530, 62);
+            this.TxtAnoPublicacao.Mask = "0000";
             this.TxtAnoPublicacao.Name = "TxtAnoPublicacao";
             this.TxtAnoPublicacao.Size = new System.Drawing.Size(143, 26);
             this.TxtAnoPublicacao.TabIndex = 39;
-            this.TxtAnoPublicacao.ValidatingType = typeof(System.DateTime);
+            this.TxtAnoPublicacao.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.TxtAnoPublicacao_MaskInputRejected);
             // 
             // FrmCadastroLivro
             // 
@@ -236,7 +243,7 @@
             this.Controls.Add(this.TxtAnoPublicacao);
             this.Controls.Add(this.TxtIsbn);
             this.Controls.Add(this.BtnPesquisar);
-            this.Controls.Add(this.TxtCodLivro);
+            this.Controls.Add(this.TxtPesquisar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.BtnExcluir);
             this.Controls.Add(this.BtnAtualizar);
@@ -280,7 +287,7 @@
         private System.Windows.Forms.Button BtnAtualizar;
         private System.Windows.Forms.Button BtnAdicionar;
         private System.Windows.Forms.Button BtnPesquisar;
-        private System.Windows.Forms.TextBox TxtCodLivro;
+        private System.Windows.Forms.TextBox TxtPesquisar;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.MaskedTextBox TxtIsbn;
         private System.Windows.Forms.MaskedTextBox TxtAnoPublicacao;

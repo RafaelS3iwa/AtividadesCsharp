@@ -82,7 +82,6 @@
             this.TxtEmail.TabIndex = 1;
             this.TxtEmail.Text = "Ex: alguem@email.com";
             this.TxtEmail.Click += new System.EventHandler(this.TxtEmail_Click);
-
             // 
             // TxtSenha
             // 
@@ -373,7 +372,6 @@
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
-
             this.panelLoginUsuario.ResumeLayout(false);
             this.panelLoginUsuario.PerformLayout();
             this.panel2.ResumeLayout(false);

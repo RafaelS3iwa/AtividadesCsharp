@@ -10,3 +10,4 @@ C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Deb
 C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.exe
 C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.pdb
 C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.FrmCadastroLivro.resources
+C:\Users\rafael.niyasue\source\repos\SistemaBiblioteca\SistemaBiblioteca\obj\Debug\SistemaBiblioteca.TelaPrincipal.resources

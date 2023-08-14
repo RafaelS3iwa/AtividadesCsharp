@@ -13,6 +13,7 @@ namespace AtividadeClasses
         {
             Cliente cliente = new Cliente();
             cliente.Saldo = 1000;
+            cliente.Quantidade = 2;
 
             Produto produto = new Produto();
             produto.Nome = "Batata";
@@ -23,23 +24,19 @@ namespace AtividadeClasses
             produto1.Valor = 5;
 
             Vendas venda = new Vendas(cliente, produto);
-            Doce doce; 
+            Doce doce = new Doce("", 0);
 
-            Doce bolo = new Doce("Bolo", 25.3);
-            Doce chocolate = new Doce("Chocolate", 10.2);
+            Doce chocolate = new Doce("Chocolate", 10);
 
-            doce.MostrarProdutos();
-
-            venda.AdicionarProduto(produto);
-            venda.AdicionarProduto(produto1);
-
-
-            double valorTotal = venda.CalcularValorTotal();
             produto1.MostrarProdutos();
             produto.MostrarProdutos();
+            chocolate.MostrarProdutos();
+            chocolate.ComprarDoce();
 
-            Console.WriteLine($"O cliente comprou {cliente.Quantidade} quantiades de {produto.Nome} e {cliente.Quantidade} de {produto1.Nome}");
-            Console.WriteLine($"o valor total foi de: {valorTotal:c}");
+            double valorTotal = venda.CalcularValorTotal();
+    
+            Console.WriteLine($"\nO cliente comprou {cliente.Quantidade} quantiades de {produto.Nome} e {cliente.Quantidade} de {produto1.Nome}");
+            Console.WriteLine($"o valor total foi de: {valorTotal:c}\n");
             venda.VerificarSaldo();          
         }
     }

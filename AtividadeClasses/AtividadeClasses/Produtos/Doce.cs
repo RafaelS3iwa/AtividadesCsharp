@@ -12,18 +12,22 @@ namespace AtividadeClasses.Produtos
         private Vendas venda; 
         private Dictionary<string, double> doces;
 
-        public Doce(Vendas vendas, string nome,  double valor) : base(nome, valor) 
+        public Dictionary<string, double> Doces => doces;
+
+        public Doce(Vendas vendas, string nome, double valor) : base(nome, valor)
         {
+            Nome = nome;
+            Valor = valor;
             venda = vendas;
         }
-         
+
         public Doce(string nome, double valor) : base(nome, valor)
         {
         }
 
-        public void AdicionarDoce(string nomeDoce, double preco)
+        public void AdicionarDoce(string nome, double valor)
         {
-            doces[nomeDoce] = preco; 
+            Doces[nome] = valor; 
         }
 
         public void ListarDoces()
@@ -36,7 +40,6 @@ namespace AtividadeClasses.Produtos
         }
         public void ComprarDoce()
         {
-
             Console.WriteLine("\nDigite qual doce você deseja comprar: ");
             string opcao = Console.ReadLine().ToLower();
             if (doces.ContainsKey(opcao))
@@ -47,8 +50,12 @@ namespace AtividadeClasses.Produtos
                 if(int.TryParse(Console.ReadLine(), out quantidadeComprada))
                 {
                     double preco = doces[opcao];
-                    Console.WriteLine($"{quantidadeComprada}x{opcao} -- {preco:c} foram adicionados ao carrinho com sucesso!");
-                    venda.AdicionarProduto(this);
+
+                    Produto doceComprado = new Doce(opcao, preco);
+
+                    venda.AdicionarProduto(doceComprado);
+
+                    Console.WriteLine($"{quantidadeComprada}x{opcao} -- {preco:c} foram adicionados ao carrinho com sucesso!");         
                 }     
             }
         }
