@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMT", "PMT\PMT.csproj", "{0059A0A4-9659-42D4-A036-A59B0425734E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0059A0A4-9659-42D4-A036-A59B0425734E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0059A0A4-9659-42D4-A036-A59B0425734E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0059A0A4-9659-42D4-A036-A59B0425734E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0059A0A4-9659-42D4-A036-A59B0425734E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D71850F6-9203-403E-B6D4-3637718CC050}
+	EndGlobalSection
+EndGlobal
